@@ -9,23 +9,23 @@ Elastika writen in Kotlin
  ➜ elasticsearch
  ```
 Import project into IntelliJ IDEA.
-If you want to run the project just do type ```CMD + ALT + R, RIGHT, EDIT  ``` and check that the following fields are correct:
+If you want to run the project just do type ```CMD + ALT + R, RIGHT, EDIT``` and check that the following fields are correct:
 
-  - Main class:  ```com.irontec.KelastikaKt ```
-  - Program arguments (you can change them):  ```-p 9200 -i irontecdocs -t irondocs --file test.pdf ```
+  - Main class:  ```com.irontec.KelastikaKt```
+  - Program arguments (you can change them): ```-p 9200 -i irontecdocs -t irondocs --file test.pdf```
   - Working directory:  ```your_path/kelastika/test```
   - Apply
   - Run
 
-You can also generate a .jar file. Just go to ```Module - Artifacts - Add (+) ``` and select ```JAR - From modules with dependencies - Select Kelastika + Ok ```
-Then, generate the JAR just by clicking in ```Build + Build artifacts ```. This will generate a out folder with the jar file, move that jar file to ```your_path/kelastika/test``` and you're ready to go.
+You can also generate a .jar file. Just go to ```Module - Artifacts - Add (+)``` and select ```JAR - From modules with dependencies - Select Kelastika + Ok```
+Then, generate the JAR just by clicking in ```Build + Build artifacts```. This will generate a out folder with the jar file, move that jar file to ```your_path/kelastika/test``` and you're ready to go.
 
 ### How it works:
   - The program will extract the contents and metadata from the specified file
   - It will check if the especified ```ìndex``` and ```mapping```exist and if not it will try to create them.
   - If everything goes fine, it will post the data to the Elastic Search instance.
 
-```sh
+```
 Hostname http://localhost
 
 #Extractic metadata
@@ -54,7 +54,8 @@ post --> http://localhost:9200/irontecdocs/irondocs/
 #Result OK
 {"result":"created","_shards":{"total":3,"failed":0,"successful":1},"_index":"irontecdocs","created":true,"_type":"irondocs","_id":"AVzzKj2n_xhkoT6fMb8X","_version":1}
 
-Process finished with exit code 0```
+Process finished with exit code 0
+```
 
 ### License
 
