@@ -61,7 +61,7 @@ Process finished with exit code 0```
 [EUPL v1.1](https://raw.githubusercontent.com/axierjhtjz/kelastika/master/LICENSE)
 
 ```
-Copyright 2015 Irontec SL
+Copyright 2015 Asier Fernandez
 
 Licensed under the EUPL, Version 1.1 or - as soon they will be approved by the European
 Commission - subsequent versions of the EUPL (the "Licence"); You may not use this work
