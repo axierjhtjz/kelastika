@@ -1,7 +1,7 @@
 # Kelastika
 Elastika writen in Kotlin
 
-# Installation:
+### Installation:
 
  Install and start Elastic Search
  ```sh
@@ -20,7 +20,7 @@ If you want to run the project just do type ```CMD + ALT + R, RIGHT, EDIT  ``` a
 You can also generate a .jar file. Just go to ```Module - Artifacts - Add (+) ``` and select ```JAR - From modules with dependencies - Select Kelastika + Ok ```
 Then, generate the JAR just by clicking in ```Build + Build artifacts ```. This will generate a out folder with the jar file, move that jar file to ```your_path/kelastika/test``` and you're ready to go.
 
-How it works:
+### How it works:
   - The program will extract the contents and metadata from the specified file
   - It will check if the especified ```ìndex``` and ```mapping```exist and if not it will try to create them.
   - If everything goes fine, it will post the data to the Elastic Search instance.
@@ -56,7 +56,7 @@ post --> http://localhost:9200/irontecdocs/irondocs/
 
 Process finished with exit code 0```
 
-# License
+### License
 
 [EUPL v1.1](https://raw.githubusercontent.com/axierjhtjz/kelastika/master/LICENSE)
 
